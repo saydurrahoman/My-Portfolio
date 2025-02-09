@@ -1,0 +1,215 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* common css start*/
+  body,
+  html{
+    font-size: 8px;
+  }
+  .subtitle h2,h2{
+    font-size: 2.5rem;
+  }
+  /* common css  end*/
+  /* header start */
+  .header{
+    padding: 0.5rem 0;
+  }
+  .header .navigation-wrap .navbar-nav{
+    margin-top: 2rem;
+  }
+  .header .navigation-wrap .nav-item{
+    margin: 0 0 1rem 0;
+  }
+  .header .navigation-wrap .main-btn{
+    margin-left: 0;
+  }
+  /* header end*/
+  /* banner start */
+  .banner h1{
+    font-size: 3rem;
+  }
+  .banner h2{
+    font-size: 2.3rem;
+  }
+  .banner h3{
+    font-size: 2.5rem;
+  }
+  .banner h4{
+    font-size: 1.6rem;
+    letter-spacing: 0.3rem;
+  }
+  /* banner end */
+  /* counter start */
+  .counter_b1,
+  .counter_b2,
+  .counter_b3{
+    display: inline-block;
+    border-right: 0;
+    border-bottom: .3rem solid var(--primary-color);
+  }
+  /* counter end */
+  /* testimonial start */
+  .testimonial .card{
+    margin-bottom: 1rem;
+  }
+  .testimonial .carousel-indicators {
+      margin-bottom: 0rem;
+  }
+  .testimonial{
+      padding: 3rem 0 4rem 0;
+  }
+  /* testimonial end */
+  /* footer start */
+  .footer_widget{
+    margin: 2rem 0;
+  }
+  .footer_bottom-text{
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .footer_menu{
+    justify-content: center;
+    align-items: center;
+  }
+  /* footer end */
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* common css start*/
+  body,
+  html{
+    font-size: 8.5px;
+  }
+  .subtitle h2,h2{
+    font-size: 3rem;
+  }
+  /* common css  end*/
+  /* header start */
+  .header{
+    padding: 0.5rem 0;
+  }
+  .header .navigation-wrap .navbar-nav{
+    margin-top: 2rem;
+  }
+  .header .navigation-wrap .nav-item{
+    margin: 0 0 1rem 0;
+  }
+  .header .navigation-wrap .main-btn{
+    margin-left: 0;
+  }
+  /* header end*/
+  /* counter start */
+  .counter_b2{
+    border-right: unset;
+  }
+  /* counter end */
+  /* srvices start */
+  .services .content{
+    margin: 0rem 2rem 2.5rem;
+  }
+  /* services end */
+  /* testimonial start */
+  .testimonial .card{
+    margin-bottom: 1rem;
+  }
+  .testimonial .carousel-indicators {
+      margin-bottom: 0rem;
+  }
+  .testimonial{
+      padding: 3rem 0 4rem 0;
+  }
+  /* testimonial end */
+  /* footer start*/
+  .footer_bottom-text{
+    text-align: center;
+  }
+  .footer_menu{
+    justify-content: center;
+    align-items: center;
+  }
+  /* footer start*/
+}
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* common css start*/
+  body,
+  html{
+    font-size: 9px;
+  }
+  .subtitle h2,h2{
+    font-size: 3rem;
+  }
+  /* common css  end*/
+  /* header start */
+  .header{
+    padding: 0.5rem 0;
+  }
+  .header .navigation-wrap .navbar-nav{
+    margin-top: 2rem;
+  }
+  .header .navigation-wrap .nav-item{
+    margin: 0 0 1rem 0;
+  }
+  .header .navigation-wrap .main-btn{
+    margin-left: 0;
+  }
+  /* header end*/
+  /* srvices start */
+  .services .content{
+    margin-left: 0;
+  }
+  /* services end */
+  /* testimonial start */
+  .testimonial .card{
+    margin-bottom: 1rem;
+  }
+  .testimonial .carousel-indicators {
+      margin-bottom: 0rem;
+  }
+  .testimonial{
+      padding: 3rem 0 4rem 0;
+  }
+  /* testimonial end */
+  /* footer start*/
+  .single_cta i{
+    font-size: 2.3rem;
+  }
+  /* footer end */
+ 
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* common css start */
+  .subtitle h2,h2{
+    font-size: 2.8rem;
+  }
+  /* common css end */
+  /* banner start */
+  .banner h1{
+    font-size: 4rem;
+  }
+  .banner h2{
+    font-size: 2.8rem;
+  }
+  /* banner end */
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* service start */
+  .services h2 {
+    font-size: 3.2rem;
+  }
+  /* service end */
+}
+
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* service start */
+  .services .content {
+    padding: 2rem 0rem;
+  }
+  /* service end */
+}
