@@ -692,3 +692,46 @@ section{
   pointer-events: auto;
 }
 /* ======= Progress button end ======= */
+/* ======= Loader start ======= */
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  transition: opacity 0.75s visibility .75s;
+}
+.loader-hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+.loader::after{
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  border: .8rem solid var(--gray-color);
+  border-top: .8rem solid var(--primary-color);
+  border-radius: 50%;
+  animation: load 1s ease infinite;
+}
+@keyframes load{
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    border: .8rem solid var(--primary-color);
+    border-top: .8rem solid var(--white-color);
+  }
+  75%{
+    border: .8rem solid var(--bg-color);
+    border-top: .8rem solid var(--primary-color);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+/* ======= Loader end ======= */
